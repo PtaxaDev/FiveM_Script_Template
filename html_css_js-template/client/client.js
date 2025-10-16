@@ -20,7 +20,6 @@ function toggleUI() {
     });
 }
 
-// Когда NUI отправляет "closeUI"
 RegisterNuiCallbackType('closeUI');
 on('__cfx_nui:closeUI', () => {
     uiOpen = false;
